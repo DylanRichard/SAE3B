@@ -1,0 +1,4 @@
+ip address add 172.16.112.35/20 dev eth0
+ip link set dev eth0 up
+ip route add default via 172.16.127.254
+cp /shared/resolv.conf /etc/resolv.conf
